@@ -1,4 +1,4 @@
-(function () {
+document.addEventListener("DOMContentLoaded", function () {
   "use strict";
 
   // ======= Sticky
@@ -14,22 +14,22 @@
     }
 
     // === logo change
-    if (ud_header.classList.contains("sticky")) {
-      logo.src = "assets/images/logo/logo.svg";
-    } else {
-      logo.src = "assets/images/logo/logo-white.svg";
-    }
+    // if (ud_header.classList.contains("sticky")) {
+    //   logo.src = "../images/logo/logo.svg";
+    // } else {
+    //   logo.src = "../images/logo/logo-white.svg";
+    // }
 
     // show or hide the back-top-top button
-    const backToTop = document.querySelector(".back-to-top");
-    if (
-      document.body.scrollTop > 50 ||
-      document.documentElement.scrollTop > 50
-    ) {
-      backToTop.style.display = "flex";
-    } else {
-      backToTop.style.display = "none";
-    }
+    // const backToTop = document.querySelector(".back-to-top");
+    // if (
+    //   document.body.scrollTop > 50 ||
+    //   document.documentElement.scrollTop > 50
+    // ) {
+    //   backToTop.style.display = "flex";
+    // } else {
+    //   backToTop.style.display = "none";
+    // }
   };
 
   // ===== responsive navbar
@@ -143,4 +143,4 @@
   }
 
   window.document.addEventListener("scroll", onScroll);
-})();
+});

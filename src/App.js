@@ -1,5 +1,5 @@
 import "./App.css";
-// import "./assets/js/main.js";
+import "./assets/js/main.js";
 import "./assets/css/animate.css";
 import "./assets/css/tailwind.css";
 import React, { useEffect, useState } from "react";
@@ -21,10 +21,13 @@ import graygridsImage from "./assets/images/footer/brands/graygrids.svg";
 import lineiconsImage from "./assets/images/footer/brands/lineicons.svg";
 
 function App() {
+  useEffect(() => {}, []);
+
   return (
     <div>
       <Helmet>
         <title>Berubahhh</title>
+        <script src="" async="true" />
       </Helmet>
       <div
         className="
@@ -199,7 +202,7 @@ function App() {
                     </li>
                     <li className="relative group submenu-item">
                       <a
-                        href="javascript:void(0)"
+                        href="#"
                         className="
                         text-base text-dark
                         lg:text-white
@@ -1748,7 +1751,7 @@ function App() {
                   Lorem Ipsum is simply dummy text of the printing and industry.
                 </p>
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   className="font-medium text-base text-body-color hover:text-primary"
                 >
                   Learn More
@@ -1813,7 +1816,7 @@ function App() {
                   Lorem Ipsum is simply dummy text of the printing and industry.
                 </p>
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   className="font-medium text-base text-body-color hover:text-primary"
                 >
                   Learn More
@@ -1890,7 +1893,7 @@ function App() {
                   Lorem Ipsum is simply dummy text of the printing and industry.
                 </p>
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   className="font-medium text-base text-body-color hover:text-primary"
                 >
                   Learn More
@@ -1955,7 +1958,7 @@ function App() {
                   Lorem Ipsum is simply dummy text of the printing and industry.
                 </p>
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   className="font-medium text-base text-body-color hover:text-primary"
                 >
                   Learn More
@@ -2034,7 +2037,7 @@ function App() {
                       applications with interactive panel.
                     </p>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       inline-flex
                       items-center
@@ -2219,7 +2222,7 @@ function App() {
                 </div>
                 <div className="w-full">
                   <a
-                    href="javascript:void(0)"
+                    href="#"
                     className="
                     inline-block
                     text-base
@@ -2325,7 +2328,7 @@ function App() {
                 </div>
                 <div className="w-full">
                   <a
-                    href="javascript:void(0)"
+                    href="#"
                     className="
                     inline-block
                     text-base
@@ -2448,7 +2451,7 @@ function App() {
                 </div>
                 <div className="w-full">
                   <a
-                    href="javascript:void(0)"
+                    href="#"
                     className="
                     inline-block
                     text-base
@@ -2924,11 +2927,7 @@ function App() {
                 x2="602.827"
                 y2="-418.681"
                 gradientUnits="userSpaceOnUse"
-              >
-                <stop stop-color="#3056D3" stop-opacity="0.36" />
-                <stop offset="1" stop-color="#F5F2FD" stop-opacity="0" />
-                <stop offset="1" stop-color="#F5F2FD" stop-opacity="0.096144" />
-              </linearGradient>
+              ></linearGradient>
             </defs>
           </svg>
         </div>
@@ -3278,7 +3277,7 @@ function App() {
                 </div>
                 <div className="ud-brands-logo flex items-center flex-wrap">
                   <div className="ud-single-logo mr-10 mb-5 max-w-[140px]">
-                    <a href="https://tailgrids.com" rel="nofollow noopner">
+                    <a href="https://tailgrids.com">
                       <img
                         src="./assets/images/brands/tailgrids.svg"
                         alt="tailgrids"
@@ -3287,7 +3286,7 @@ function App() {
                     </a>
                   </div>
                   <div className="ud-single-logo mr-10 mb-5 max-w-[140px]">
-                    <a href="https://ayroui.com" rel="nofollow noopner">
+                    <a href="https://ayroui.com">
                       <img
                         src={ayrouiImage}
                         alt="ayroui"
@@ -3296,7 +3295,7 @@ function App() {
                     </a>
                   </div>
                   <div className="ud-single-logo mr-10 mb-5 max-w-[140px]">
-                    <a href="https://uideck.com" rel="nofollow noopner">
+                    <a href="https://uideck.com">
                       <img
                         src={uideckImage}
                         alt="uideck"
@@ -3305,7 +3304,7 @@ function App() {
                     </a>
                   </div>
                   <div className="ud-single-logo mr-10 mb-5 max-w-[140px]">
-                    <a href="https://graygrids.com" rel="nofollow noopner">
+                    <a href="https://graygrids.com">
                       <img
                         src={graygridsImage}
                         alt="graygrids"
@@ -3314,7 +3313,7 @@ function App() {
                     </a>
                   </div>
                   <div className="ud-single-logo mr-10 mb-5 max-w-[140px]">
-                    <a href="https://lineicons.com" rel="nofollow noopner">
+                    <a href="https://lineicons.com">
                       <img
                         src={lineiconsImage}
                         alt="lineicons"
@@ -3809,7 +3808,7 @@ function App() {
                   </p>
                   <div className="flex items-center justify-center">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       text-[#cdced6]
                       hover:text-primary
@@ -3831,7 +3830,7 @@ function App() {
                       </svg>
                     </a>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       text-[#cdced6]
                       hover:text-primary
@@ -3853,7 +3852,7 @@ function App() {
                       </svg>
                     </a>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       text-[#cdced6]
                       hover:text-primary
@@ -4324,7 +4323,7 @@ function App() {
                   </p>
                   <div className="flex items-center justify-center">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       text-[#cdced6]
                       hover:text-primary
@@ -4346,7 +4345,7 @@ function App() {
                       </svg>
                     </a>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       text-[#cdced6]
                       hover:text-primary
@@ -4368,7 +4367,7 @@ function App() {
                       </svg>
                     </a>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       text-[#cdced6]
                       hover:text-primary
@@ -4839,7 +4838,7 @@ function App() {
                   </p>
                   <div className="flex items-center justify-center">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       text-[#cdced6]
                       hover:text-primary
@@ -4861,7 +4860,7 @@ function App() {
                       </svg>
                     </a>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       text-[#cdced6]
                       hover:text-primary
@@ -4883,7 +4882,7 @@ function App() {
                       </svg>
                     </a>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       text-[#cdced6]
                       hover:text-primary
@@ -5354,7 +5353,7 @@ function App() {
                   </p>
                   <div className="flex items-center justify-center">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       text-[#cdced6]
                       hover:text-primary
@@ -5376,7 +5375,7 @@ function App() {
                       </svg>
                     </a>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       text-[#cdced6]
                       hover:text-primary
@@ -5398,7 +5397,7 @@ function App() {
                       </svg>
                     </a>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       text-[#cdced6]
                       hover:text-primary
@@ -5527,12 +5526,11 @@ function App() {
                 </h3>
                 <form>
                   <div className="mb-6">
-                    <label for="fullName" className="block text-xs text-dark">
+                    <label className="block text-xs text-dark">
                       Full Name*
                     </label>
                     <input
                       type="text"
-                      name="fullName"
                       placeholder="Adam Gelius"
                       className="
                       w-full
@@ -5543,12 +5541,9 @@ function App() {
                     />
                   </div>
                   <div className="mb-6">
-                    <label for="email" className="block text-xs text-dark">
-                      Email*
-                    </label>
+                    <label className="block text-xs text-dark">Email*</label>
                     <input
                       type="email"
-                      name="email"
                       placeholder="example@yourmail.com"
                       className="
                       w-full
@@ -5559,12 +5554,9 @@ function App() {
                     />
                   </div>
                   <div className="mb-6">
-                    <label for="phone" className="block text-xs text-dark">
-                      Phone*
-                    </label>
+                    <label className="block text-xs text-dark">Phone*</label>
                     <input
                       type="text"
-                      name="phone"
                       placeholder="+885 1254 5211 552"
                       className="
                       w-full
@@ -5575,11 +5567,8 @@ function App() {
                     />
                   </div>
                   <div className="mb-6">
-                    <label for="message" className="block text-xs text-dark">
-                      Message*
-                    </label>
+                    <label className="block text-xs text-dark">Message*</label>
                     <textarea
-                      name="message"
                       rows="1"
                       placeholder="type your message here"
                       className="
@@ -5628,10 +5617,7 @@ function App() {
           <div className="flex flex-wrap -mx-4">
             <div className="w-full sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12 px-4">
               <div className="w-full mb-10">
-                <a
-                  href="javascript:void(0)"
-                  className="inline-block max-w-[160px] mb-6"
-                >
+                <a href="#" className="inline-block max-w-[160px] mb-6">
                   <img src={logoWhiteImage} alt="logo" className="max-w-full" />
                 </a>
                 <p className="text-base text-[#f3f4fe] mb-7">
@@ -5639,10 +5625,7 @@ function App() {
                   using technology.
                 </p>
                 <div className="flex items-center -mx-3">
-                  <a
-                    href="javascript:void(0)"
-                    className="px-3 text-[#dddddd] hover:text-white"
-                  >
+                  <a href="#" className="px-3 text-[#dddddd] hover:text-white">
                     <svg
                       width="10"
                       height="18"
@@ -5652,10 +5635,7 @@ function App() {
                       <path d="M9.00007 6.82105H7.50006H6.96434V6.27097V4.56571V4.01562H7.50006H8.62507C8.91971 4.01562 9.16078 3.79559 9.16078 3.46554V0.550085C9.16078 0.247538 8.9465 0 8.62507 0H6.66969C4.55361 0 3.08038 1.54024 3.08038 3.82309V6.21596V6.76605H2.54466H0.72322C0.348217 6.76605 0 7.06859 0 7.50866V9.48897C0 9.87402 0.294645 10.2316 0.72322 10.2316H2.49109H3.02681V10.7817V16.31C3.02681 16.6951 3.32145 17.0526 3.75003 17.0526H6.26791C6.42862 17.0526 6.56255 16.9701 6.66969 16.8601C6.77684 16.7501 6.8572 16.5576 6.8572 16.3925V10.8092V10.2591H7.4197H8.62507C8.97328 10.2591 9.24114 10.0391 9.29471 9.709V9.6815V9.65399L9.66972 7.7562C9.6965 7.56367 9.66972 7.34363 9.509 7.1236C9.45543 6.98608 9.21436 6.84856 9.00007 6.82105Z" />
                     </svg>
                   </a>
-                  <a
-                    href="javascript:void(0)"
-                    className="px-3 text-[#dddddd] hover:text-white"
-                  >
+                  <a href="#" className="px-3 text-[#dddddd] hover:text-white">
                     <svg
                       width="19"
                       height="15"
@@ -5665,10 +5645,7 @@ function App() {
                       <path d="M16.2622 3.17878L17.33 1.93293C17.6391 1.59551 17.7234 1.33595 17.7515 1.20618C16.9085 1.67337 16.1217 1.82911 15.6159 1.82911H15.4192L15.3068 1.72528C14.6324 1.18022 13.7894 0.894714 12.8902 0.894714C10.9233 0.894714 9.37779 2.40012 9.37779 4.13913C9.37779 4.24295 9.37779 4.39868 9.40589 4.5025L9.49019 5.02161L8.90009 4.99565C5.30334 4.89183 2.35288 2.03675 1.87518 1.5436C1.08839 2.84136 1.53799 4.08722 2.01568 4.86587L2.97107 6.31937L1.45369 5.54071C1.48179 6.63084 1.93138 7.48736 2.80247 8.11029L3.56116 8.62939L2.80247 8.9149C3.28017 10.2386 4.34795 10.7837 5.13474 10.9913L6.17443 11.2509L5.19094 11.8738C3.61736 12.912 1.65039 12.8342 0.779297 12.7563C2.54957 13.8983 4.65705 14.1579 6.11823 14.1579C7.21412 14.1579 8.02901 14.0541 8.2257 13.9762C16.0936 12.2631 16.4589 5.77431 16.4589 4.47655V4.29486L16.6275 4.19104C17.5829 3.36047 17.9763 2.91923 18.2011 2.65967C18.1168 2.68563 18.0044 2.73754 17.892 2.7635L16.2622 3.17878Z" />
                     </svg>
                   </a>
-                  <a
-                    href="javascript:void(0)"
-                    className="px-3 text-[#dddddd] hover:text-white"
-                  >
+                  <a href="#" className="px-3 text-[#dddddd] hover:text-white">
                     <svg
                       width="18"
                       height="18"
@@ -5680,10 +5657,7 @@ function App() {
                       <path d="M13.5985 3.82184C13.2383 3.82184 12.9336 4.12013 12.9336 4.47266C12.9336 4.82519 13.2383 5.12349 13.5985 5.12349C13.9587 5.12349 14.2634 4.82519 14.2634 4.47266C14.2634 4.12013 13.9864 3.82184 13.5985 3.82184Z" />
                     </svg>
                   </a>
-                  <a
-                    href="javascript:void(0)"
-                    className="px-3 text-[#dddddd] hover:text-white"
-                  >
+                  <a href="#" className="px-3 text-[#dddddd] hover:text-white">
                     <svg
                       width="18"
                       height="18"
@@ -5704,7 +5678,7 @@ function App() {
                 <ul>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -5718,7 +5692,7 @@ function App() {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -5732,7 +5706,7 @@ function App() {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -5746,7 +5720,7 @@ function App() {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -5769,7 +5743,7 @@ function App() {
                 <ul>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -5783,7 +5757,7 @@ function App() {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -5797,7 +5771,7 @@ function App() {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -5811,7 +5785,7 @@ function App() {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -5834,7 +5808,7 @@ function App() {
                 <ul>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -5848,7 +5822,7 @@ function App() {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -5862,7 +5836,7 @@ function App() {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -5876,7 +5850,7 @@ function App() {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -5900,7 +5874,6 @@ function App() {
                   <li>
                     <a
                       href="https://tailgrids.com"
-                      rel="nofollow noopner"
                       className="
                       block
                       mb-6
@@ -5916,7 +5889,6 @@ function App() {
                   <li>
                     <a
                       href="https://ayroui.com"
-                      rel="nofollow noopner"
                       className="
                       block
                       mb-6
@@ -5926,16 +5898,12 @@ function App() {
                       2xl:max-w-[120px]
                     "
                     >
-                      <img
-                        src="./assets/images/footer/brands/ayroui.svg"
-                        alt="ayroui"
-                      />
+                      <img src={ayrouiImage} alt="ayroui" />
                     </a>
                   </li>
                   <li>
                     <a
                       href="https://ecommercehtml.com"
-                      rel="nofollow noopner"
                       className="
                       block
                       mb-6
@@ -5951,7 +5919,6 @@ function App() {
                   <li>
                     <a
                       href="https://graygrids.com"
-                      rel="nofollow noopner"
                       className="
                       block
                       mb-6
@@ -5961,16 +5928,12 @@ function App() {
                       2xl:max-w-[120px]
                     "
                     >
-                      <img
-                        src="./assets/images/footer/brands/graygrids.svg"
-                        alt="graygrids"
-                      />
+                      <img src={graygridsImage} alt="graygrids" />
                     </a>
                   </li>
                   <li>
                     <a
                       href="https://lineicons.com"
-                      rel="nofollow noopner"
                       className="
                       block
                       mb-6
@@ -5980,16 +5943,12 @@ function App() {
                       2xl:max-w-[120px]
                     "
                     >
-                      <img
-                        src="./assets/images/footer/brands/lineicons.svg"
-                        alt="lineicons"
-                      />
+                      <img src={lineiconsImage} alt="lineicons" />
                     </a>
                   </li>
                   <li>
                     <a
                       href="https://uideck.com"
-                      rel="nofollow noopner"
                       className="
                       block
                       mb-6
@@ -5999,10 +5958,7 @@ function App() {
                       2xl:max-w-[120px]
                     "
                     >
-                      <img
-                        src="./assets/images/footer/brands/uideck.svg"
-                        alt="uideck"
-                      />
+                      <img src={uideckImage} alt="uideck" />
                     </a>
                   </li>
                 </ul>
@@ -6026,19 +5982,19 @@ function App() {
                   "
                   >
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="text-base text-[#f3f4fe] hover:text-primary px-3"
                     >
                       Privacy policy
                     </a>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="text-base text-[#f3f4fe] hover:text-primary px-3"
                     >
                       Legal notice
                     </a>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="text-base text-[#f3f4fe] hover:text-primary px-3"
                     >
                       Terms of service
@@ -6052,7 +6008,6 @@ function App() {
                     Designed and Developed by
                     <a
                       href="https://tailgrids.com"
-                      rel="nofollow noopner"
                       className="text-primary hover:underline"
                     >
                       TailGrids and UIdeck
